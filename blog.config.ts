@@ -10,16 +10,16 @@ const deploymentUrl =
 
 const config: BlogConfig = {
   site: {
-    title: '我的博客',
+    title: 'Keller Sermon Notes',
     baseUrl: deploymentUrl,
-    defaultLocale: 'zh',
-    locales: ['zh'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
     localePrefixPolicy: 'redirect-to-default',
     timezone: 'Asia/Shanghai',
   },
   author: {
-    name: '博主',
-    bio: '记录生活与想法。',
+    name: 'Jonathan D.S.',
+    bio: 'Christian taking notes.',
     avatar: '/favicon.svg',
     socials: [],
   },
