@@ -24,13 +24,13 @@ const config: BlogConfig = {
     socials: [],
   },
   text: {
-    siteDescription: '记录生活与想法。',
+    siteDescription: 'Sermon notes, reflections, and gospel-centered insights',
     tabs: { search: 'Read', posts: 'Articles' },
     homeHeading: 'What would you like to read today? ',
     searchHeading: 'Search articles, key words, and ideas',
-    searchPlaceholder: '搜索文章、想法与关键词',
-    notFoundMessage: '这一页，还没有写下故事。',
-    footerDescription: '记录生活与想法。',
+    searchPlaceholder: 'Search sermons, topics, and Scripture references',
+    notFoundMessage: 'No notes have been written for this page yet.',
+    footerDescription: 'Sermon notes, reflections, and gospel-centered insights',
   },
   posts: {
     perPage: 10,
@@ -66,8 +66,8 @@ const config: BlogConfig = {
       { id: 'about', type: 'page', page: 'about', label: '关于', icon: 'info' },
     ],
     menu: [
-      { id: 'home', type: 'builtin', route: 'home', label: '首页' },
-      { id: 'posts', type: 'builtin', route: 'posts', label: '文章' },
+      { id: 'home', type: 'builtin', route: 'home', label: 'Home' },
+      { id: 'posts', type: 'builtin', route: 'posts', label: 'Articles' },
     ],
     width: { default: 340, min: 240, max: 480 },
   },
